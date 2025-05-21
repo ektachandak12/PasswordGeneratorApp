@@ -71,8 +71,8 @@ CREATE TABLE passwords (
 In the file PasswordGeneratorApp.java, update the database credentials to match your MySQL setup:
 
 private static final String DB_URL = "jdbc:mysql://localhost:3306/password_manager";
-private static final String DB_USER = "root";           // Your MySQL username
-private static final String DB_PASSWORD = "Ekta@1204";  // Your MySQL password
+private static final String DB_USER = "root";           
+private static final String DB_PASSWORD = "Ekta@1204";  
 
 4. Add MySQL JDBC Driver
 Download MySQL Connector/J:
@@ -95,7 +95,7 @@ Run the main() method in PasswordGeneratorApp.
 
 ✅ From Command Line
 bash
-Copy code
+
 javac -cp ".;mysql-connector-java-8.0.xx.jar" PasswordGeneratorApp.java
 java -cp ".;mysql-connector-java-8.0.xx.jar" PasswordGeneratorApp
 Replace xx with the actual version number of your connector.
@@ -119,13 +119,14 @@ Open the application.
 
 📁 Project Structure
 csharp
-Copy code
+
+
 password-generator-app/
 │
-├── PasswordGeneratorApp.java         # Main source code
-├── mysql-connector-java-8.0.xx.jar   # JDBC driver
-├── README.md                         # Project documentation
-├── .idea/ / out/                     # IntelliJ-related files (optional)
+├── PasswordGeneratorApp.java          # Main source code
+├── mysql-connector-java-8.0.xx.jar    # JDBC driver
+├── README.md                          # Project documentation
+├── .idea/ / out/                      # IntelliJ-related files (optional)
 
 🧑‍💻 Author
 Ekta Naresh Chandak
