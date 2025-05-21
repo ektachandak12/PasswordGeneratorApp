@@ -122,13 +122,16 @@ csharp
 
 
 password-generator-app/
-│
-├── PasswordGeneratorApp.java          # Main source code
-├── mysql-connector-java-8.0.xx.jar    # JDBC driver
-├── README.md                          # Project documentation
-├── .idea/ / out/                      # IntelliJ-related files (optional)
+
+|
+├── PasswordGeneratorApp.java          
+├── mysql-connector-java-8.0.xx.jar    
+├── README.md                          
+├── .idea/ / out/                      
+
 
 🧑‍💻 Author
+
 Ekta Naresh Chandak
 🎓 BTech, Artificial Intelligence and Data Science
 🔗 GitHub: https://github.com/ektachandak12
