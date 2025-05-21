@@ -1,4 +1,4 @@
-# 🔐 Strong Password Generator - Java Swing + MySQL
+# 🔐 Strong Password Generator 
 
 A desktop application built using Java and Swing to generate secure, customizable passwords. It allows users to save, view, and delete generated passwords using a MySQL database. Built with simplicity and functionality in mind.
 
@@ -71,8 +71,8 @@ CREATE TABLE passwords (
 In the file PasswordGeneratorApp.java, update the database credentials to match your MySQL setup:
 
 private static final String DB_URL = "jdbc:mysql://localhost:3306/password_manager";
-private static final String DB_USER = "root";           
-private static final String DB_PASSWORD = "Ekta@1204";  
+private static final String DB_USER = "your_username";           
+private static final String DB_PASSWORD = "your_password";  
 
 4. Add MySQL JDBC Driver
 Download MySQL Connector/J:
