@@ -102,7 +102,7 @@ Replace xx with the actual version number of your connector.
 
 ```
 
-🧪 How to Use
+### 🧪 How to Use
 Open the application.
 
 - Enter the desired password length.
@@ -117,7 +117,7 @@ Open the application.
 
 - Use Delete Password History to clear all saved data.
 
-📁 Project Structure
+### 📁 Project Structure
 csharp
 
 
@@ -130,16 +130,16 @@ password-generator-app/
 ├── .idea/ / out/                      
 
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 
 Ekta Naresh Chandak
 🎓 BTech, Artificial Intelligence and Data Science
 🔗 GitHub: https://github.com/ektachandak12
 📧 Email: ektachandak.edu@gmail.com
 
-🪪 License
+### 🪪 License
 This project is open-source and available under the MIT License.
 
-🙌 Contributions
+### 🙌 Contributions
 Pull requests are welcome!
 If you find bugs or have suggestions, feel free to open an issue or contribute directly.
